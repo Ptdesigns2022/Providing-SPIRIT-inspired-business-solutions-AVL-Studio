@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="description" content="Sound and Lightening Company">
+	<meta charset="utf-8">
+    <meta name ="viewport" content= "width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta http-equiv= "X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="HandheldFriendly"content="true">
+    <link rel="stylesheet" type="text/css" href="About.css">
+    
+	<title>About Us</title>
+</head>
+<body>
+		<!-- MY LOGO AND SIGN UP CODE GOES HERE-->
+	
+	  <div class="hero">
+	  	<div class="nav-bar">
+        <a href="index.html"><img src="logo2.png" class="logo"></a>
+        
+      <button type="button"><a href ="Contact Us.html" class="one" onclick="toggleMenu1();">Get in touch now!</a>
+           </button>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+      
+	<div class="content">
+		<h1 id="hone"> About Us</h1>
+		  <p id="pone1">World's Creative Studio is a tech enterprise that specialises in bringing out the best
+		  quality in every Church Setup, Indoor/outdoor concerts and other events through our Live audio mixing, Stage lightening,and purchasing and rental of good quality equipment for you at affordable prices. </p>
+	</div>
+
+
+	<!--<div class="Side-bar">-->
+		<!--<img src="menu.png" class="menu">-->
+
+		<div class="social-links">
+          <ul>
+			<li><a href="#"><img src="fb.png"></a></li>
+			<li><a href="#"><img src="ig.png"></a></li>
+			<li><a href="#"><img src="tw.png"></a></li>
+          </ul>
+		</div>
+	</div>
+    
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+	<nav class="navigation">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+		 	<li><a href="Visual.html">Visual</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+		</ul>
+	</nav>
+<script type="text/javascript">
+   	   function toggleMenu(){
+   	   	var menuToggle = document.querySelector('.menuToggle');
+   	   	var menuToggle = document.querySelector('.navigation');
+   	   	menuToggle.classList.toggle('active')
+   	   	navigation.classList.toggle('active')  
+   	   }
+     </script>
+</body>
+</html>

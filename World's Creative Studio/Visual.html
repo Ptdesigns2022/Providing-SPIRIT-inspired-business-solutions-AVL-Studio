@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="description" content="Sound and Lightening Company">
+	<meta charset="utf-8">
+    <meta name ="viewport" content= "width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta http-equiv= "X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="HandheldFriendly"content="true">
+    <link rel="stylesheet" type="text/css" href="Visual.css">
+    
+	<title>Visuals</title>
+</head>
+<body>
+		<!-- MY LOGO AND SIGN UP CODE GOES HERE-->
+	<div class="hero">
+		<div class="nav-bar">
+		  <a href="index.html"><img src="logo2.png" class="logo"></a>
+
+	      <button onclick="show_hide()" type="button"><a href ="Contact Us.html" class="one"> Get in touch now!
+	       </a></button>
+	</div>
+
+		
+	<div class="content">
+		<div class="sec">
+		<h1 id="one"> VISUAL</h1>
+		 <p>At World's Creative Studio, we delight in bringing out the hidden beauty of a place through our lightening and stage setup services. Our Visual engineers specialize in  bringing out the beauty of a place with their creative combinations of different colours of LED lights and screens thereby creating a comforting and memorable atmosphere for your event.</p>
+		 </div>
+
+		 <div class="box">
+		  	<div class="Imgbx">
+        <input type="radio" id="trigger1" name="slider">
+        <label for="trigger1"></label>
+        <div class="slide bg1"></div>
+
+        <input type="radio" id="trigger2" name="slider" checked>
+        <label for="trigger2"></label>
+        <div class="slide bg2"></div>
+
+        <input type="radio" id="trigger3" name="slider">
+        <label for="trigger3"></label>
+        <div class="slide bg3"></div>
+
+        <input type="radio" id="trigger4" name="slider">
+        <label for="trigger4"></label>
+        <div class="slide bg4"></div>
+
+        <input type="radio" id="trigger5" name="slider">
+        <label for="trigger5"></label>
+        <div class="slide bg5"></div>
+
+           	</div>
+		  </div>
+		  </div>
+		  <!--<div class="box">
+		  	<div class="Imgbx">
+		  		<img src="3.jpg">
+		  	</div>
+		  </div>-->
+
+	
+   
+   
+
+	
+		<!--<img src="menu.png" class="menu">-->
+
+		<div class="social-links">
+          <ul>
+			<li><a href="#"><img src="fb.png"></a></li>
+			<li><a href="#"><img src="ig.png"></a></li>
+			<li><a href="#"><img src="tw.png"></a></li>
+          </ul>
+		</div>
+	</div>
+    
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+	<nav class="navigation">
+		<ul>
+		    <li><a href="index.html">Home</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+		 	<li><a href="Visual.html">Visual</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+		</ul>
+	</nav>
+ 
+
+ 
+<script type="text/javascript">
+
+   	   function toggleMenu(){
+   	   	var menuToggle = document.querySelector('.menuToggle');
+   	   	var menuToggle = document.querySelector('.navigation');
+   	   	menuToggle.classList.toggle('active')
+   	   	navigation.classList.toggle('active')  
+   	   }
+
+   	   var a;
+   	   function show_hide()
+   	   {
+   	   	 if(a==1){
+            document.getElementById("card").style.display="inline";
+            return a=0;
+   	   	 }
+   	   	 else
+   	   	 {
+   	   	 	document.getElementById("card").style.display="none";
+            return a=1;
+   	   	 }
+   	   }
+
+     </script>
+</body>
+</html>

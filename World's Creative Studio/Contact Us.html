@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="description" content="Sound and Lightening Company">
+	  <meta charset="utf-8">
+    <meta name ="viewport" content= "width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta http-equiv= "X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="HandheldFriendly"content="true">
+    <link rel="stylesheet" type="text/css" href="Contact Us.css">
+    
+	<title>Contact Us</title>
+</head>
+<body>
+		<!-- MY LOGO AND SIGN UP CODE GOES HERE-->
+	<div class="hero">
+		<div class="nav-bar">
+		 <a href="index.html"><img src="logo2.png" class="logo"></a>
+	
+	</div>
+      
+	<div class="content">
+		<h1 id="hone"> </h1>
+	</div>
+
+
+	
+		<!--<img src="menu.png" class="menu">-->
+
+		<div class="social-links">
+          <ul>
+			<li><a href="#"><img src="fb.png"></a></li>
+			<li><a href="#"><img src="ig.png"></a></li>
+			<li><a href="#"><img src="tw.png"></a></li>
+          </ul>
+		</div>
+	</div>
+    
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+	<nav class="navigation"> 
+		<ul>
+			<li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Audio.html">Audio</a></li>
+      <li><a href="Visual.html">Visual</a></li>
+      <li><a href="Contact Us.html">Contact Us</a></li>
+		</ul>
+	</nav>
+
+       <!-- MY CONTACT US WRITEUP STARTS HERE-->
+          <section id="contact-section">
+          	<div class="container2">
+              <h2><span>C</span>ontact Us Now</h2>
+               <p>Email us and keep up to date with our latest news.</p>
+                <div class="contact-form">
+
+                	<!-- First Grid Section-->
+                	<div>
+                		<span class="form-info"> 192 City Boston America #345</span><br>
+                		<span class="form-info"> Phone no: +2348142928707</span><br>
+                	  <span class="form-info"> timiolaniyi10@gmail.com</span><br>
+                	</div>
+                	
+                </div>
+          	</div>
+
+          	<!-- Second Grid Section-->
+          	     <div>
+          	       	<form id="contact-form" method="post" action="Contact Us.php">
+                      <input type="text" name="First Name" placeholder="Your name" required="">
+                      <input type="text" name="Last name"  placeholder="Last name" required="">
+                      <input type="Email" name="Email"     placeholder="Email" required="">
+                      <input type="text" name="Message Subject" placeholder="Subject of this message" required="">
+                      <textarea name="message" name="Message" placeholder="Message" rows="5"  required=""></textarea>
+                      <input type="submit" class="submit" value="Send Message">
+                    </form>
+          	     </div>
+          	
+          </section>
+       <!-- MY CONTACT US WRITEUP ENDS HERE-->
+
+
+    <script type="text/javascript">
+   	   function toggleMenu(){
+   	   	var menuToggle = document.querySelector('.menuToggle');
+   	   	var menuToggle = document.querySelector('.navigation');
+   	   	menuToggle.classList.toggle('active')
+   	   	navigation.classList.toggle('active')  
+   	   }
+     </script>
+</body>
+</html>

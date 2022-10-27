@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="description" content="Sound and Lightening Company">
+	<meta charset="utf-8">
+    <meta name ="viewport" content= "width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta http-equiv= "X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="HandheldFriendly"content="true">
+    <link rel="stylesheet" type="text/css" href="Page Setup.css">
+    
+	<title>Page Setup</title>
+</head>
+<body>
+		<!-- MY LOGO AND SIGN UP CODE GOES HERE-->
+	<div class="hero">
+		<div class="nav-bar">
+		 <img src="logo2.png" class="logo">
+
+		   <button onclick="show_hide()" type="button"><a href ="Contact Us.html" class="one"> Get in touch now!z</a> </button>
+	</div>
+
+	    <div id="card">
+	    	 <div class="card1">
+	    	<h1> Sign up for our newsletter!</h1>
+	    		<form>
+          	       		<input type="text" placeholder="Your name" required="">
+          	       		<input type="text" placeholder="Last name" required="">
+          	       		<input type="Email" placeholder="Email" required="">
+          	       		<button class="submit">Send Message</button>
+          	       	</form>
+          	       </div>
+	    </div>
+		
+	<div class="content">
+		<h1 id="hone"> </h1>
+	</div>
+
+
+	
+		<!--<img src="menu.png" class="menu">-->
+
+		<div class="social-links">
+          <ul>
+			<li><a href="#"><img src="fb.png"></a></li>
+			<li><a href="#"><img src="ig.png"></a></li>
+			<li><a href="#"><img src="tw.png"></a></li>
+          </ul>
+		</div>
+	</div>
+    
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+	<nav class="navigation">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="About.html">About</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+		 	<li><a href="Visual.html">Visual</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+		</ul>
+	</nav>
+
+<script type="text/javascript">
+
+   	   function toggleMenu(){
+   	   	var menuToggle = document.querySelector('.menuToggle');
+   	   	var menuToggle = document.querySelector('.navigation');
+   	   	menuToggle.classList.toggle('active')
+   	   	navigation.classList.toggle('active')  
+   	   }
+
+   	   var a;
+   	   function show_hide()
+   	   {
+   	   	 if(a==1){
+            document.getElementById("card").style.display="inline";
+            return a=0;
+   	   	 }
+   	   	 else
+   	   	 {
+   	   	 	document.getElementById("card").style.display="none";
+            return a=1;
+   	   	 }
+   	   }
+
+     </script>
+</body>
+</html>
